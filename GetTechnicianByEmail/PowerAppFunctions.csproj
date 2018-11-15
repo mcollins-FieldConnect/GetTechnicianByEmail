@@ -4,7 +4,11 @@
     <AzureFunctionsVersion>v1</AzureFunctionsVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.14" />
+    <PackageReference Include="Microsoft.Crm.Sdk.Proxy.2011" Version="5.0.18" />
+    <PackageReference Include="Microsoft.Crm.Sdk.Proxy.2015" Version="7.1.0" />
+    <PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="9.0.2.5" />
+    <PackageReference Include="Microsoft.CrmSdk.XrmTooling.CoreAssembly" Version="9.0.2.7" />
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.24" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
