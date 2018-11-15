@@ -24,7 +24,7 @@ namespace GetTechnicianByEmail
             .FirstOrDefault(q => string.Compare(q.Key, "email", true) == 0)
             .Value;
 
-            var connectionString = @"AuthType=Office365;Url=https://fieldconnectdevelopment.crm.dynamics.com/;Username=m.collins@fieldconnectdevelopment.onmicrosoft.com;Password=Matt20371";
+            var connectionString = @"AuthType=Office365;Url=https://fieldconnectdevelopment.crm.dynamics.com/;Username=<username>;Password=<password>";
             CrmServiceClient conn = new CrmServiceClient(connectionString);
 
             IOrganizationService _orgService;
